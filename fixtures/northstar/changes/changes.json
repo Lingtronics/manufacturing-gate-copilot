@@ -1,0 +1,72 @@
+[
+  {
+    "id": "EC-001",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Sensor debounce update",
+    "requirement_ids": [
+      "REQ-003"
+    ],
+    "evidence_ids": [
+      "DOC-003"
+    ],
+    "status": "APPROVED",
+    "validation_complete": false,
+    "expected_classification": "blocker"
+  },
+  {
+    "id": "EC-002",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Drive parameter revision",
+    "requirement_ids": [
+      "REQ-011"
+    ],
+    "evidence_ids": [
+      "DOC-003"
+    ],
+    "status": "APPROVED",
+    "validation_complete": false,
+    "expected_classification": "warning"
+  },
+  {
+    "id": "EC-003",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Instruction correction",
+    "requirement_ids": [
+      "REQ-005"
+    ],
+    "evidence_ids": [
+      "DOC-005"
+    ],
+    "status": "VALIDATED",
+    "validation_complete": true,
+    "expected_classification": "validated"
+  },
+  {
+    "id": "EC-004",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Spare motor substitution",
+    "requirement_ids": [
+      "REQ-014"
+    ],
+    "evidence_ids": [
+      "DOC-009"
+    ],
+    "status": "APPROVED",
+    "validation_complete": false,
+    "expected_classification": "warning"
+  },
+  {
+    "id": "EC-005",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Packaging insert revision",
+    "requirement_ids": [
+      "REQ-010"
+    ],
+    "evidence_ids": [
+      "DOC-010"
+    ],
+    "status": "VALIDATED",
+    "validation_complete": true,
+    "expected_classification": "validated"
+  }
+]

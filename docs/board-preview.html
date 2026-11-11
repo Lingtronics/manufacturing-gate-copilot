@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Local board preview</title><style>body{font:15px system-ui;background:#eef2f4;color:#203340;padding:24px}section{background:#f9fbfc;padding:24px;margin:24px 0;border:1px solid #ccd7dc;border-radius:16px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}article{padding:20px;border:1px solid #dce3e6;border-radius:8px;min-height:180px}pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere}small{font-size:10px;overflow-wrap:anywhere}@media(max-width:800px){.grid{grid-template-columns:1fr}}</style><h1>Gate 3 · Local board preview</h1><p>Synthetic data · Miro has not been called · No launch authorised</p><section><h2>01 · Executive summary</h2><div class="grid"><article style="background:#fff0ed"><b>summary</b><pre>Northstar Automated Sortation Line
+NOT_READY
+Coverage 60.00% · 4 blockers · 4 warnings
+Synthetic decision support. Human review required.</pre><small></small></article></div></section><section><h2>02 · Requirements and evidence</h2><div class="grid"><article style="background:#fff0ed"><b>REQ-001</b><pre>REQ-001 · Safety interlock validation
+MISSING
+Sources: DOC-001</pre><small></small></article><article style="background:#eaf7f1"><b>REQ-002</b><pre>REQ-002 · Pilot build acceptance
+VALIDATED
+Sources: DOC-002</pre><small>REF-DOC-002-A-2</small></article><article style="background:#fff8dd"><b>REQ-003</b><pre>REQ-003 · Control software verification
+PARTIAL
+Sources: DOC-003</pre><small>REF-DOC-003-A-2</small></article><article style="background:#fff0ed"><b>REQ-004</b><pre>REQ-004 · Supplier part approval
+CONFLICTING
+Sources: DOC-004</pre><small>REF-DOC-004-A-2, REF-DOC-004-B-2</small></article><article style="background:#eaf7f1"><b>REQ-005</b><pre>REQ-005 · Work instruction release
+VALIDATED
+Sources: DOC-005</pre><small>REF-DOC-005-A-2</small></article><article style="background:#fff8dd"><b>REQ-006</b><pre>REQ-006 · Operator training
+PARTIAL
+Sources: DOC-006</pre><small>REF-DOC-006-A-2</small></article><article style="background:#eaf7f1"><b>REQ-007</b><pre>REQ-007 · Measurement calibration
+VALIDATED
+Sources: DOC-007</pre><small>REF-DOC-007-A-2</small></article><article style="background:#fff0ed"><b>REQ-008</b><pre>REQ-008 · Process capability study
+MISSING
+Sources: DOC-008</pre><small></small></article><article style="background:#eaf7f1"><b>REQ-009</b><pre>REQ-009 · Maintenance readiness
+VALIDATED
+Sources: DOC-009</pre><small>REF-DOC-009-A-2</small></article><article style="background:#eaf7f1"><b>REQ-010</b><pre>REQ-010 · Packaging qualification
+VALIDATED
+Sources: DOC-010</pre><small>REF-DOC-010-A-2</small></article><article style="background:#fff8dd"><b>REQ-011</b><pre>REQ-011 · Change validation
+PARTIAL
+Sources: DOC-003</pre><small>REF-DOC-003-A-2</small></article><article style="background:#eaf7f1"><b>REQ-012</b><pre>REQ-012 · Defect containment
+VALIDATED
+Sources: DOC-002</pre><small>REF-DOC-002-A-2</small></article><article style="background:#eaf7f1"><b>REQ-013</b><pre>REQ-013 · Traceability verification
+VALIDATED
+Sources: DOC-007</pre><small>REF-DOC-007-A-2</small></article><article style="background:#eaf7f1"><b>REQ-014</b><pre>REQ-014 · Spare parts readiness
+VALIDATED
+Sources: DOC-009</pre><small>REF-DOC-009-A-2</small></article><article style="background:#eaf7f1"><b>REQ-015</b><pre>REQ-015 · Review evidence pack
+VALIDATED
+Sources: DOC-005</pre><small>REF-DOC-005-A-2</small></article></div></section><section><h2>03 · Quality risk register</h2><div class="grid"><article style="background:#fff0ed"><b>QI-001</b><pre>QI-001 · Conveyor sensor intermittent stop
+HIGH · Unresolved
+Requirements: REQ-002</pre><small>REF-DOC-002-A-2</small></article><article style="background:#fff0ed"><b>QI-002</b><pre>QI-002 · Guard interlock test incomplete
+CRITICAL · Unresolved
+Requirements: REQ-001</pre><small></small></article><article style="background:#ffffff"><b>QI-003</b><pre>QI-003 · Training variance
+MEDIUM · Unresolved
+Requirements: REQ-006</pre><small>REF-DOC-006-A-2</small></article><article style="background:#ffffff"><b>QI-004</b><pre>QI-004 · Packaging label correction
+LOW · Unresolved
+Requirements: REQ-010</pre><small>REF-DOC-010-A-2</small></article><article style="background:#ffffff"><b>QI-005</b><pre>QI-005 · Calibration label replaced
+MEDIUM · Resolved
+Requirements: REQ-007</pre><small>REF-DOC-007-A-2</small></article><article style="background:#ffffff"><b>QI-006</b><pre>QI-006 · Spare parts list corrected
+LOW · Resolved
+Requirements: REQ-014</pre><small>REF-DOC-009-A-2</small></article><article style="background:#ffffff"><b>QI-007</b><pre>QI-007 · Pilot torque deviation closed
+HIGH · Resolved
+Requirements: REQ-002</pre><small>REF-DOC-002-A-2</small></article><article style="background:#ffffff"><b>QI-008</b><pre>QI-008 · Instruction typo closed
+LOW · Resolved
+Requirements: REQ-005</pre><small>REF-DOC-005-A-2</small></article></div></section><section><h2>04 · Engineering changes</h2><div class="grid"><article style="background:#fff8dd"><b>EC-001</b><pre>EC-001 · Sensor debounce update
+APPROVED · Validation incomplete</pre><small></small></article><article style="background:#fff8dd"><b>EC-002</b><pre>EC-002 · Drive parameter revision
+APPROVED · Validation incomplete</pre><small></small></article><article style="background:#eaf7f1"><b>EC-003</b><pre>EC-003 · Instruction correction
+VALIDATED · Validation complete</pre><small></small></article><article style="background:#fff8dd"><b>EC-004</b><pre>EC-004 · Spare motor substitution
+APPROVED · Validation incomplete</pre><small></small></article><article style="background:#eaf7f1"><b>EC-005</b><pre>EC-005 · Packaging insert revision
+VALIDATED · Validation complete</pre><small></small></article></div></section><section><h2>05 · Corrective actions</h2><div class="grid"><article style="background:#fff8dd"><b>CA-001</b><pre>CA-001 · Close and verify conveyor sensor intermittent stop
+Owner: Quality · Due 2026-10-20
+IN_PROGRESS</pre><small></small></article><article style="background:#fff8dd"><b>CA-002</b><pre>CA-002 · Close and verify guard interlock test incomplete
+Owner: Engineering · Due 2026-10-20
+IN_PROGRESS</pre><small></small></article><article style="background:#fff8dd"><b>CA-003</b><pre>CA-003 · Close and verify training variance
+Owner: Operations · Due 2026-10-20
+OPEN</pre><small></small></article><article style="background:#fff8dd"><b>CA-004</b><pre>CA-004 · Close and verify packaging label correction
+Owner: Quality · Due 2026-10-20
+OPEN</pre><small></small></article><article style="background:#eaf7f1"><b>CA-005</b><pre>CA-005 · Close and verify calibration label replaced
+Owner: Quality · Due 2026-10-30
+COMPLETE</pre><small></small></article><article style="background:#eaf7f1"><b>CA-006</b><pre>CA-006 · Close and verify spare parts list corrected
+Owner: Engineering · Due 2026-10-30
+COMPLETE</pre><small></small></article><article style="background:#eaf7f1"><b>CA-007</b><pre>CA-007 · Close and verify pilot torque deviation closed
+Owner: Operations · Due 2026-10-30
+COMPLETE</pre><small></small></article><article style="background:#eaf7f1"><b>CA-008</b><pre>CA-008 · Close and verify instruction typo closed
+Owner: Quality · Due 2026-10-30
+COMPLETE</pre><small></small></article></div></section><section><h2>06 · Human decision log</h2><div class="grid"><article style="background:#ffffff"><b>no-decision</b><pre>No human review recorded. No production launch authorised.</pre><small></small></article></div></section><section><h2>07 · Business-value summary</h2><div class="grid"><article style="background:#ffffff"><b>VALUE-1</b><pre>Conservative · modelled GBP
+Annual hours saved: 100.80
+Annual net benefit: £4152.00
+First-year ROI: -65.40%
+Synthetic assumptions; no achieved savings.</pre><small></small></article><article style="background:#ffffff"><b>VALUE-2</b><pre>Base · modelled GBP
+Annual hours saved: 238.08
+Annual net benefit: £13075.20
+First-year ROI: 8.96%
+Synthetic assumptions; no achieved savings.</pre><small></small></article><article style="background:#ffffff"><b>VALUE-3</b><pre>Optimistic · modelled GBP
+Annual hours saved: 412.80
+Annual net benefit: £24432.00
+First-year ROI: 103.60%
+Synthetic assumptions; no achieved savings.</pre><small></small></article></div></section></html>

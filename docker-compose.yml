@@ -1,0 +1,17 @@
+services:
+  copilot:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      APP_MODE: demo
+      MIRO_MODE: mock
+      ALLOW_LIVE_MIRO: "false"
+      LLM_ENABLED: "false"
+      DEMO_ALLOW_PRIVATE_CLIENTS: "true"
+      DATABASE_PATH: /app/data/copilot.sqlite3
+    volumes:
+      - copilot-data:/app/data
+    restart: "no"
+volumes:
+  copilot-data:

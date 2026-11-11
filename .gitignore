@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+node_modules/
+frontend/dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+data/
+*.sqlite*
+playwright-report/
+test-results/
+
+*.egg-info/
+*.tsbuildinfo
+.test-tmp/
+
+# Local credentials and provider settings
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json

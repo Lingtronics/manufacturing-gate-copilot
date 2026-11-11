@@ -1,0 +1,90 @@
+[
+  {
+    "id": "CA-001",
+    "project_id": "PRJ-NORTHSTAR",
+    "issue_id": "QI-001",
+    "title": "Close and verify conveyor sensor intermittent stop",
+    "owner": "Quality",
+    "due_date": "2026-10-20",
+    "status": "IN_PROGRESS",
+    "blocking": true,
+    "expected_classification": "blocking"
+  },
+  {
+    "id": "CA-002",
+    "project_id": "PRJ-NORTHSTAR",
+    "issue_id": "QI-002",
+    "title": "Close and verify guard interlock test incomplete",
+    "owner": "Engineering",
+    "due_date": "2026-10-20",
+    "status": "IN_PROGRESS",
+    "blocking": true,
+    "expected_classification": "blocking"
+  },
+  {
+    "id": "CA-003",
+    "project_id": "PRJ-NORTHSTAR",
+    "issue_id": "QI-003",
+    "title": "Close and verify training variance",
+    "owner": "Operations",
+    "due_date": "2026-10-20",
+    "status": "OPEN",
+    "blocking": false,
+    "expected_classification": "warning"
+  },
+  {
+    "id": "CA-004",
+    "project_id": "PRJ-NORTHSTAR",
+    "issue_id": "QI-004",
+    "title": "Close and verify packaging label correction",
+    "owner": "Quality",
+    "due_date": "2026-10-20",
+    "status": "OPEN",
+    "blocking": false,
+    "expected_classification": "warning"
+  },
+  {
+    "id": "CA-005",
+    "project_id": "PRJ-NORTHSTAR",
+    "issue_id": "QI-005",
+    "title": "Close and verify calibration label replaced",
+    "owner": "Quality",
+    "due_date": "2026-10-30",
+    "status": "COMPLETE",
+    "blocking": false,
+    "expected_classification": "complete"
+  },
+  {
+    "id": "CA-006",
+    "project_id": "PRJ-NORTHSTAR",
+    "issue_id": "QI-006",
+    "title": "Close and verify spare parts list corrected",
+    "owner": "Engineering",
+    "due_date": "2026-10-30",
+    "status": "COMPLETE",
+    "blocking": false,
+    "expected_classification": "complete"
+  },
+  {
+    "id": "CA-007",
+    "project_id": "PRJ-NORTHSTAR",
+    "issue_id": "QI-007",
+    "title": "Close and verify pilot torque deviation closed",
+    "owner": "Operations",
+    "due_date": "2026-10-30",
+    "status": "COMPLETE",
+    "blocking": false,
+    "expected_classification": "complete"
+  },
+  {
+    "id": "CA-008",
+    "project_id": "PRJ-NORTHSTAR",
+    "issue_id": "QI-008",
+    "title": "Close and verify instruction typo closed",
+    "owner": "Quality",
+    "due_date": "2026-10-30",
+    "status": "COMPLETE",
+    "blocking": false,
+    "expected_classification": "complete"
+  }
+]

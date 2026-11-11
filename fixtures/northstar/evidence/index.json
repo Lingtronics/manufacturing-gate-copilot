@@ -1,0 +1,161 @@
+[
+  {
+    "id": "DOC-001",
+    "revision": "A",
+    "source_type": "markdown",
+    "title": "Safety interlock validation",
+    "source_text": "# Safety interlock validation \u2014 synthetic\n\nSafety interlock sign-off has not been provided.\n",
+    "requirement_ids": [
+      "REQ-001"
+    ],
+    "location": "evidence/DOC-001-A.md",
+    "content_hash": "38aaeb8a00b954fc8e8ebe988aa0a3b51cf182f27c390e7b0214c53b69fc6bcd",
+    "evidence_status": "MISSING",
+    "expected_classification": "MISSING"
+  },
+  {
+    "id": "DOC-002",
+    "revision": "A",
+    "source_type": "markdown",
+    "title": "Pilot build acceptance",
+    "source_text": "# Pilot build acceptance \u2014 synthetic\n\nPilot build acceptance record signed. Defect QI-001 remains unresolved under containment.\n",
+    "requirement_ids": [
+      "REQ-002",
+      "REQ-012"
+    ],
+    "location": "evidence/DOC-002-A.md",
+    "content_hash": "af3e05c5d6ed9a9c79db087876b83b0164aaa83b6595b313761924151b9b4de8",
+    "evidence_status": "VALIDATED",
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "DOC-003",
+    "revision": "A",
+    "source_type": "markdown",
+    "title": "Control software verification",
+    "source_text": "# Control software verification \u2014 synthetic\n\nControl software tests are partial. EC-001 is approved but validation has not completed.\n",
+    "requirement_ids": [
+      "REQ-003",
+      "REQ-011"
+    ],
+    "location": "evidence/DOC-003-A.md",
+    "content_hash": "2445c3ca48e4c4df8496ef19bf68123a22dd7795941503b125c0c67cc76a5b58",
+    "evidence_status": "PARTIAL",
+    "expected_classification": "PARTIAL"
+  },
+  {
+    "id": "DOC-004",
+    "revision": "A",
+    "source_type": "markdown",
+    "title": "Supplier part approval",
+    "source_text": "# Supplier part approval \u2014 synthetic\n\nSupplier approval revision A states the bracket is accepted.\n",
+    "requirement_ids": [
+      "REQ-004"
+    ],
+    "location": "evidence/DOC-004-A.md",
+    "content_hash": "c4ef41b0b5029926b95cc0fdf4fd91161cb0cab784dc0fe4b8e2c297e338036e",
+    "evidence_status": "CONFLICTING",
+    "expected_classification": "CONFLICTING"
+  },
+  {
+    "id": "DOC-004",
+    "revision": "B",
+    "source_type": "markdown",
+    "title": "Supplier part approval",
+    "source_text": "# Supplier part approval \u2014 synthetic\n\nSupplier approval revision B states the bracket is rejected. Both revisions remain active.\n",
+    "requirement_ids": [
+      "REQ-004"
+    ],
+    "location": "evidence/DOC-004-B.md",
+    "content_hash": "869a01d3e42a14f98dd1e41709635a29d7702ca80a9d7c90b13c22cf9c454efa",
+    "evidence_status": "CONFLICTING",
+    "expected_classification": "CONFLICTING"
+  },
+  {
+    "id": "DOC-005",
+    "revision": "A",
+    "source_type": "markdown",
+    "title": "Work instruction release",
+    "source_text": "# Work instruction release \u2014 synthetic\n\nWork instructions revision 1 signed and released for the synthetic pilot.\n",
+    "requirement_ids": [
+      "REQ-005",
+      "REQ-015"
+    ],
+    "location": "evidence/DOC-005-A.md",
+    "content_hash": "84d8aef1f01b041de2248bb1ceda453349a3b1818da522217b9f1abaa01c382c",
+    "evidence_status": "VALIDATED",
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "DOC-006",
+    "revision": "A",
+    "source_type": "markdown",
+    "title": "Operator training",
+    "source_text": "# Operator training \u2014 synthetic\n\nOperator training incomplete for the second shift.\n",
+    "requirement_ids": [
+      "REQ-006"
+    ],
+    "location": "evidence/DOC-006-A.md",
+    "content_hash": "751cc1cb5cc64f06727cea93c38d185dad51f360b21fa83a8d55a097d5f429bb",
+    "evidence_status": "PARTIAL",
+    "expected_classification": "PARTIAL"
+  },
+  {
+    "id": "DOC-007",
+    "revision": "A",
+    "source_type": "markdown",
+    "title": "Measurement calibration",
+    "source_text": "# Measurement calibration \u2014 synthetic\n\nMeasurement calibration and traceability checks signed.\n",
+    "requirement_ids": [
+      "REQ-007",
+      "REQ-013"
+    ],
+    "location": "evidence/DOC-007-A.md",
+    "content_hash": "387a07b3e9e018cea7442fdf5ef0459e8756f4ee6aac93d5b15ce008bcdeaaec",
+    "evidence_status": "VALIDATED",
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "DOC-008",
+    "revision": "A",
+    "source_type": "markdown",
+    "title": "Process capability study",
+    "source_text": "# Process capability study \u2014 synthetic\n\nProcess capability source unavailable; study has not been supplied.\n",
+    "requirement_ids": [
+      "REQ-008"
+    ],
+    "location": "evidence/DOC-008-A.md",
+    "content_hash": "ed981b4f8a63556c4108ad004f99b78306c7328e872da3d5fa269c69d8e0469c",
+    "evidence_status": "MISSING",
+    "expected_classification": "MISSING"
+  },
+  {
+    "id": "DOC-009",
+    "revision": "A",
+    "source_type": "markdown",
+    "title": "Maintenance readiness",
+    "source_text": "# Maintenance readiness \u2014 synthetic\n\nMaintenance and spare parts readiness signed.\n",
+    "requirement_ids": [
+      "REQ-009",
+      "REQ-014"
+    ],
+    "location": "evidence/DOC-009-A.md",
+    "content_hash": "82bc0252c778acf38178660e25d0cfb037fefce77322ff5e7f070f7d51a00e41",
+    "evidence_status": "VALIDATED",
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "DOC-010",
+    "revision": "A",
+    "source_type": "markdown",
+    "title": "Packaging qualification",
+    "source_text": "# Packaging qualification \u2014 synthetic\n\nPackaging qualification report signed.\n",
+    "requirement_ids": [
+      "REQ-010"
+    ],
+    "location": "evidence/DOC-010-A.md",
+    "content_hash": "155aa7c52a6f188d4796a5a1fefea079f1da33dd70834566202ac4647691b4b5",
+    "evidence_status": "VALIDATED",
+    "expected_classification": "VALIDATED"
+  }
+]

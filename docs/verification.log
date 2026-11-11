@@ -1,0 +1,171 @@
+...............................................                          [100%]
+============================== warnings summary ===============================
+.venv\Lib\site-packages\starlette\testclient.py:40
+  C:\Users\lingf\Documents\Projects\Miro - Manufacturing Gate Copilot\.venv\Lib\site-packages\starlette\testclient.py:40: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+47 passed, 1 warning in 1.38s
+All checks passed!
+Success: no issues found in 27 source files
+
+> manufacturing-gate-copilot-ui@1.0.0 lint
+> prettier --check src e2e *.ts *.json index.html
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> manufacturing-gate-copilot-ui@1.0.0 build
+> tsc -b && vite build
+
+vite v6.0.7 building for production...
+transforming...
+✓ 1585 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.47 kB │ gzip:  0.31 kB
+dist/assets/index-0hVNkA-4.css   20.47 kB │ gzip:  5.30 kB
+dist/assets/index-BxuWXuwB.js   229.10 kB │ gzip: 70.26 kB
+✓ built in 1.81s
+
+> manufacturing-gate-copilot-ui@1.0.0 test:e2e
+> playwright test
+
+[WebServer] INFO:     Started server process [32644]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[WebServer] {"event": "http_request", "method": "GET", "path": "/health", "status": 200, "correlation_id": "REQ-cb0df61a26204745"}
+
+Running 2 tests using 1 worker
+
+(node:32036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:32036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] {"event": "http_request", "method": "GET", "path": "/", "status": 200, "correlation_id": "REQ-28e94516ca2c47b9"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/assets/index-BxuWXuwB.js", "status": 200, "correlation_id": "REQ-9ac28f1cb3f64c7f"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/assets/index-0hVNkA-4.css", "status": 200, "correlation_id": "REQ-f86003042dd44acb"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/session", "status": 401, "correlation_id": "REQ-5cd3a3ae10b047c1"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/demo-sessions", "status": 200, "correlation_id": "REQ-0992058d6a714fa3"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-d84514ceed88481c"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-e35086df406e4222"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-57c18c1013c74691"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-6cf7ca98031c47bd"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-ceaaf98152414506"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-753172909f394aab"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-7e59b332b0aa41ad"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/projects/PRJ-NORTHSTAR/assessments", "status": 201, "correlation_id": "REQ-ea4cb767cc6844b2"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-0d16a151b77743ed"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-d2c8d138289b430e"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-c034baf91a80461e"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-556d29da0f2e4f5a"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-ad6797d0d3ab4a33"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-5859bbcaa8a3466a"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-0b51dbcd61d34518"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/explanation", "status": 200, "correlation_id": "REQ-a28d307919454926"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-f57cb9a09e554276"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/demo-sessions", "status": 200, "correlation_id": "REQ-81a80724101f4ccb"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-f651ccf591a94cf9"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-8e3d0fc702a246e3"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-3f33e44ecbe441e4"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-669959259d084aef"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-a7314d70bd8e4a1b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-b2437cee5e1e43bb"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-22803de4d62f4c95"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/explanation", "status": 200, "correlation_id": "REQ-86f45397ae3d482f"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-0b83aca4f5824b85"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/assessments/ASM-af474160172f43d9/review", "status": 200, "correlation_id": "REQ-837c1a36728640b2"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-1b372c8e3c8d4303"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-adc68fd15b4a4b8a"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-aba26526f3094dcf"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-884151dfb3b64219"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-bb9301a8eb6d46ab"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-5b5a279847994099"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-7e66260962974bde"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-cb382413dbed4a8a"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/explanation", "status": 200, "correlation_id": "REQ-69e295f7abac4e18"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/board-preview", "status": 200, "correlation_id": "REQ-c7006598be364172"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/demo-sessions", "status": 200, "correlation_id": "REQ-a050873e2f6d48f0"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-724c4e86c489453b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-24382621127d4484"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-6a5b629dde074d72"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-2b9091ccf6694e26"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-f73d0bca31a540d0"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-0801dba0c7044c26"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-feaf379b02ed4dd0"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-613594cf457a40db"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/explanation", "status": 200, "correlation_id": "REQ-223fb55b96f248cd"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication-approvals", "status": 200, "correlation_id": "REQ-baa4911d98fb49f1"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-c024cff4b5a24fbd"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-976f95f4ce79427b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-e7805cacd3354158"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-8db0f5f9d8bc44f6"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-988328ffb119464d"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-38a526b5d75e4344"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-f5ade289b9414989"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/explanation", "status": 200, "correlation_id": "REQ-8d62e78b891941bb"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-f90c21ea96af42bf"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication-approvals", "status": 200, "correlation_id": "REQ-e14b822ecd0548bb"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-6e1e119e0127450f"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-4435a9d2b7ac4b8e"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-2823b83cd5014866"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-7c1babbad051430c"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-dc69d3a352014d4e"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-b9b56f756aa14c9d"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-abdeee7428e5411c"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-db1ee701c44a4af3"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/explanation", "status": 200, "correlation_id": "REQ-55c4a30ec22548f7"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/assessments/ASM-af474160172f43d9/publish", "status": 200, "correlation_id": "REQ-5d69bd2c491b47c5"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-4b67cde86a7f42f7"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-600a4a45682045db"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-8f865c8e87b54fca"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-a0c36dcf674d454b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-a4024c346be6451a"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-934678dc68a2427b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-9511248b729d4e5a"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/explanation", "status": 200, "correlation_id": "REQ-ba94245c09f341d1"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-454f54c547bf4db8"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-1b9f51af28724794"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-aa46d03f62124c7a"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/assessments/ASM-af474160172f43d9/publish", "status": 200, "correlation_id": "REQ-5523cffd50924f71"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-8911d5cc53a141c1"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-1f0bf36ed245433a"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-042d6f0a98b34611"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-b8f3fe3d80024b6b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-aec2697c11a54fd6"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-68efbde4cb4242d4"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-264fa298cb3c4c77"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/explanation", "status": 200, "correlation_id": "REQ-8b85286d520940f8"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-1e766ce268ac4fc9"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-2cfb7f0e5feb459e"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-8980cab852004cd4"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/executive-report", "status": 200, "correlation_id": "REQ-8b40d60c8b0940fe"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/executive-report", "status": 200, "correlation_id": "REQ-f5fad018fbdc4818"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-94c6efdb5f924175"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-356819af3eeb4ba5"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-51b2a064430c4053"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-61717f49df754914"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-7a02acc5dc40470e"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-9ac357bc355e4256"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-5ecf9c9645dd4fc4"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/explanation", "status": 200, "correlation_id": "REQ-2869d60e45fb4fce"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-f2aba9e26cd54e2c"}
+  ok 1 e2e\workflow.spec.ts:3:1 › clean offline workflow, roles, citations and idempotent publication (3.6s)
+[WebServer] {"event": "http_request", "method": "GET", "path": "/", "status": 200, "correlation_id": "REQ-fc038002773546f2"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/assets/index-BxuWXuwB.js", "status": 200, "correlation_id": "REQ-f56df1cce42d47a6"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/assets/index-0hVNkA-4.css", "status": 200, "correlation_id": "REQ-83f9533070bc4cb1"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/session", "status": 401, "correlation_id": "REQ-a3e9ff29a8ff4c3c"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/demo-sessions", "status": 200, "correlation_id": "REQ-548b5b368f054fef"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-b5db2ec853324b10"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-76ea4e10f5494645"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-d297d5b5c3754e1b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-756b5697273f484b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-2678c9d29b1b41fa"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-cd002eb04ccd4c16"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-fe07087e31b94286"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/explanation", "status": 200, "correlation_id": "REQ-fb58eb9e866a49f4"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-af474160172f43d9/publication", "status": 200, "correlation_id": "REQ-ca870e40bc664c39"}
+  ok 2 e2e\workflow.spec.ts:139:1 › responsive navigation and source search (476ms)
+
+  2 passed (7.5s)

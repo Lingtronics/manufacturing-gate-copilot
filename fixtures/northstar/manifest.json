@@ -1,0 +1,27 @@
+{
+  "synthetic": true,
+  "version": "1.0",
+  "programme_id": "PRJ-NORTHSTAR",
+  "counts": {
+    "requirements": 15,
+    "supporting_document_ids": 10,
+    "evidence_revisions": 11,
+    "quality_issues": 8,
+    "engineering_changes": 5,
+    "corrective_actions": 8,
+    "kpi_baselines": 1,
+    "gate_policies": 1
+  },
+  "expected": {
+    "overall_readiness": "NOT_READY",
+    "coverage": "60.00",
+    "blockers": 4,
+    "insufficient": 5,
+    "warnings": 4
+  },
+  "notes": [
+    "DOC-004 A and B deliberately conflict; ten logical supporting documents, eleven revision files.",
+    "Missing placeholders preserve source metadata but do not count as validated evidence.",
+    "Classifications are fixture expectations, never inputs to the rules engine."
+  ]
+}

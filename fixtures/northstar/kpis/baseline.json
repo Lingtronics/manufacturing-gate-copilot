@@ -1,0 +1,13 @@
+{
+  "id": "KPI-001",
+  "project_id": "PRJ-NORTHSTAR",
+  "evidence_collection_hours": "40",
+  "preparation_hours": "24",
+  "annual_reviews": 12,
+  "labour_cost_per_hour": "65",
+  "gate_cycle_days": "15",
+  "evidence_coverage": "0.60",
+  "defect_recurrence": null,
+  "currency": "GBP",
+  "synthetic": true
+}

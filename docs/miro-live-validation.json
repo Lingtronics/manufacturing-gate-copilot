@@ -1,0 +1,5 @@
+{
+  "target": "miro-read",
+  "status": "BLOCKED",
+  "reason": "MIRO_OAUTH_TOKEN and a test board ID/URL are required"
+}

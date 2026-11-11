@@ -1,0 +1,114 @@
+[
+  {
+    "id": "QI-001",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Conveyor sensor intermittent stop",
+    "requirement_ids": [
+      "REQ-002"
+    ],
+    "evidence_ids": [
+      "DOC-002"
+    ],
+    "severity": "HIGH",
+    "resolved": false,
+    "expected_classification": "blocker"
+  },
+  {
+    "id": "QI-002",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Guard interlock test incomplete",
+    "requirement_ids": [
+      "REQ-001"
+    ],
+    "evidence_ids": [
+      "DOC-001"
+    ],
+    "severity": "CRITICAL",
+    "resolved": false,
+    "expected_classification": "blocker"
+  },
+  {
+    "id": "QI-003",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Training variance",
+    "requirement_ids": [
+      "REQ-006"
+    ],
+    "evidence_ids": [
+      "DOC-006"
+    ],
+    "severity": "MEDIUM",
+    "resolved": false,
+    "expected_classification": "non-blocking"
+  },
+  {
+    "id": "QI-004",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Packaging label correction",
+    "requirement_ids": [
+      "REQ-010"
+    ],
+    "evidence_ids": [
+      "DOC-010"
+    ],
+    "severity": "LOW",
+    "resolved": false,
+    "expected_classification": "non-blocking"
+  },
+  {
+    "id": "QI-005",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Calibration label replaced",
+    "requirement_ids": [
+      "REQ-007"
+    ],
+    "evidence_ids": [
+      "DOC-007"
+    ],
+    "severity": "MEDIUM",
+    "resolved": true,
+    "expected_classification": "resolved"
+  },
+  {
+    "id": "QI-006",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Spare parts list corrected",
+    "requirement_ids": [
+      "REQ-014"
+    ],
+    "evidence_ids": [
+      "DOC-009"
+    ],
+    "severity": "LOW",
+    "resolved": true,
+    "expected_classification": "resolved"
+  },
+  {
+    "id": "QI-007",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Pilot torque deviation closed",
+    "requirement_ids": [
+      "REQ-002"
+    ],
+    "evidence_ids": [
+      "DOC-002"
+    ],
+    "severity": "HIGH",
+    "resolved": true,
+    "expected_classification": "resolved"
+  },
+  {
+    "id": "QI-008",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Instruction typo closed",
+    "requirement_ids": [
+      "REQ-005"
+    ],
+    "evidence_ids": [
+      "DOC-005"
+    ],
+    "severity": "LOW",
+    "resolved": true,
+    "expected_classification": "resolved"
+  }
+]

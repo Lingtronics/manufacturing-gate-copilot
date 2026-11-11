@@ -1,0 +1,12 @@
+{
+  "id": "PRJ-NORTHSTAR",
+  "name": "Northstar Automated Sortation Line",
+  "gate_id": "GATE-3",
+  "synthetic": true,
+  "participants": [
+    "Engineering",
+    "Quality",
+    "Manufacturing Operations",
+    "Programme Management"
+  ]
+}

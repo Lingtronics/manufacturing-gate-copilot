@@ -1,0 +1,43 @@
+
+> manufacturing-gate-copilot-ui@1.0.0 test:live:ollama
+> playwright test --config playwright.live.config.ts
+
+[WebServer] INFO:     Started server process [21840]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[WebServer] {"event": "http_request", "method": "GET", "path": "/health", "status": 200, "correlation_id": "REQ-8cfaef4bc91d4b0a"}
+
+Running 1 test using 1 worker
+
+(node:4972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] {"event": "http_request", "method": "GET", "path": "/", "status": 200, "correlation_id": "REQ-e7ce83db570d4912"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/assets/index-0hVNkA-4.css", "status": 200, "correlation_id": "REQ-a71dd3914c8744e8"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/assets/index-6oa4vb_b.js", "status": 200, "correlation_id": "REQ-8294a174035944e4"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/session", "status": 401, "correlation_id": "REQ-dc0f4d3cc4524826"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/demo-sessions", "status": 200, "correlation_id": "REQ-bf61be897ed94947"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-d5584b0d0c1a4ffa"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-dcd22e8f68534f85"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-0d83925639b5483a"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-ea626bedb53e4ac1"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-d1b2ccffd9414ab8"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-9b01c239f5254052"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-683df25e6b504b04"}
+[WebServer] {"event": "http_request", "method": "POST", "path": "/api/v1/projects/PRJ-NORTHSTAR/assessments", "status": 201, "correlation_id": "REQ-9084cdb3db394bca"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/capabilities", "status": 200, "correlation_id": "REQ-116f5b1656f74653"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/requirements", "status": 200, "correlation_id": "REQ-96f679f6127844ac"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/value-case", "status": 200, "correlation_id": "REQ-a2be8d35b18e4c6b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/audit", "status": 200, "correlation_id": "REQ-9b4706d03094449e"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-83a2c976bb0d4dc1"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/evidence", "status": 200, "correlation_id": "REQ-6f53d8b4c7bd4f68"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR/records", "status": 200, "correlation_id": "REQ-e5dbd51c4a64415b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-3ac2a58736ca4c70/publication", "status": 200, "correlation_id": "REQ-fff1e7ecab3d4702"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-3ac2a58736ca4c70/explanation", "status": 200, "correlation_id": "REQ-c15ce6d60bcb477b"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/projects/PRJ-NORTHSTAR", "status": 200, "correlation_id": "REQ-47dfa171fdab4edb"}
+[WebServer] {"event": "http_request", "method": "GET", "path": "/api/v1/assessments/ASM-3ac2a58736ca4c70/explanation", "status": 200, "correlation_id": "REQ-2365f30641f44a96"}
+  ok 1 live-e2e\ollama.spec.ts:3:1 › actual local Ollama output reaches the assessment UI and is cached (7.4s)
+
+  1 passed (9.8s)

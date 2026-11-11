@@ -1,0 +1,35 @@
+[
+  {
+    "id": "VALUE-1",
+    "name": "Conservative",
+    "assumption_version": "1.0",
+    "preparation_reduction": "0.25",
+    "collection_reduction": "0.20",
+    "implementation_cost": "12000",
+    "annual_operating_cost": "2400",
+    "adoption_rate": "0.60",
+    "annual_review_volume": 12
+  },
+  {
+    "id": "VALUE-2",
+    "name": "Base",
+    "assumption_version": "1.0",
+    "preparation_reduction": "0.45",
+    "collection_reduction": "0.35",
+    "implementation_cost": "12000",
+    "annual_operating_cost": "2400",
+    "adoption_rate": "0.80",
+    "annual_review_volume": 12
+  },
+  {
+    "id": "VALUE-3",
+    "name": "Optimistic",
+    "assumption_version": "1.0",
+    "preparation_reduction": "0.60",
+    "collection_reduction": "0.50",
+    "implementation_cost": "12000",
+    "annual_operating_cost": "2400",
+    "adoption_rate": "1.0",
+    "annual_review_volume": 12
+  }
+]

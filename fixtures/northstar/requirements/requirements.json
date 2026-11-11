@@ -1,0 +1,182 @@
+[
+  {
+    "id": "REQ-001",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Safety interlock validation",
+    "criteria": "Synthetic policy: safety interlock validation requires a validated, uncontradicted signed record.",
+    "criticality": "CRITICAL",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-001"
+    ],
+    "expected_classification": "MISSING"
+  },
+  {
+    "id": "REQ-002",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Pilot build acceptance",
+    "criteria": "Synthetic policy: pilot build acceptance requires a validated, uncontradicted signed record.",
+    "criticality": "CRITICAL",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-002"
+    ],
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "REQ-003",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Control software verification",
+    "criteria": "Synthetic policy: control software verification requires a validated, uncontradicted signed record.",
+    "criticality": "CRITICAL",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-003"
+    ],
+    "expected_classification": "PARTIAL"
+  },
+  {
+    "id": "REQ-004",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Supplier part approval",
+    "criteria": "Synthetic policy: supplier part approval requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-004"
+    ],
+    "expected_classification": "CONFLICTING"
+  },
+  {
+    "id": "REQ-005",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Work instruction release",
+    "criteria": "Synthetic policy: work instruction release requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-005"
+    ],
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "REQ-006",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Operator training",
+    "criteria": "Synthetic policy: operator training requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-006"
+    ],
+    "expected_classification": "PARTIAL"
+  },
+  {
+    "id": "REQ-007",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Measurement calibration",
+    "criteria": "Synthetic policy: measurement calibration requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-007"
+    ],
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "REQ-008",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Process capability study",
+    "criteria": "Synthetic policy: process capability study requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-008"
+    ],
+    "expected_classification": "MISSING"
+  },
+  {
+    "id": "REQ-009",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Maintenance readiness",
+    "criteria": "Synthetic policy: maintenance readiness requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-009"
+    ],
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "REQ-010",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Packaging qualification",
+    "criteria": "Synthetic policy: packaging qualification requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-010"
+    ],
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "REQ-011",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Change validation",
+    "criteria": "Synthetic policy: change validation requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-003"
+    ],
+    "expected_classification": "PARTIAL"
+  },
+  {
+    "id": "REQ-012",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Defect containment",
+    "criteria": "Synthetic policy: defect containment requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-002"
+    ],
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "REQ-013",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Traceability verification",
+    "criteria": "Synthetic policy: traceability verification requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-007"
+    ],
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "REQ-014",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Spare parts readiness",
+    "criteria": "Synthetic policy: spare parts readiness requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-009"
+    ],
+    "expected_classification": "VALIDATED"
+  },
+  {
+    "id": "REQ-015",
+    "project_id": "PRJ-NORTHSTAR",
+    "title": "Review evidence pack",
+    "criteria": "Synthetic policy: review evidence pack requires a validated, uncontradicted signed record.",
+    "criticality": "STANDARD",
+    "mandatory": true,
+    "evidence_ids": [
+      "DOC-005"
+    ],
+    "expected_classification": "VALIDATED"
+  }
+]

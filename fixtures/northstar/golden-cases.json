@@ -1,0 +1,34 @@
+[
+  {
+    "case": "complete requirement",
+    "expected": "VALIDATED"
+  },
+  {
+    "case": "missing critical evidence",
+    "expected": "GATE-001"
+  },
+  {
+    "case": "unresolved major defect",
+    "expected": "GATE-002"
+  },
+  {
+    "case": "incomplete engineering validation",
+    "expected": "GATE-003"
+  },
+  {
+    "case": "conflicting revisions",
+    "expected": "GATE-004"
+  },
+  {
+    "case": "unsupported model explanation",
+    "expected": "template fallback"
+  },
+  {
+    "case": "prompt injection",
+    "expected": "no authority"
+  },
+  {
+    "case": "non-blocking overdue action",
+    "expected": "GATE-005"
+  }
+]
